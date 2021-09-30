@@ -1,0 +1,37 @@
+var books = `[{
+    "title": "Javascript for Dummies",
+    "author": "Dummy Dumb Dumb",
+    "read": "true",
+    "img": "https://cdn.pixabay.com/photo/2015/12/05/08/25/fairy-tale-1077863_960_720.jpg"      
+}, {
+    "title": "PHP for Dummies",
+    "author": "John Doe",
+    "read": "false",
+    "img": "https://cdn.pixabay.com/photo/2013/07/12/16/35/php-151199__340.png"     
+}, {
+    "title": "CSS for Dummies",
+    "author": "Sarah Larsson",
+    "read": "true",
+    "img": "https://cdn.pixabay.com/photo/2016/11/19/23/00/css3-1841590__340.png"      
+}, {
+    "title": "HTML for Dummies",
+    "author": "Ciara Miller",
+    "read": "false",
+    "img": "https://cdn.pixabay.com/photo/2016/11/19/22/25/html5-1841458__340.png"     
+}, {
+    "title": "Bootstrap for Dummies",
+    "author": "Dirk Hauser",
+    "read": "true",
+    "img": "https://s3.eu-west-1.amazonaws.com/redsys-prod/articles/2de66e4eac061cb890b59e25/images/teaserImage_xxxx_croppedTeaserImage.jpg"      
+}, {
+    "title": "SASS/SCSS for Dummies",
+    "author": "Blaso Peter",
+    "read": "false",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1200px-Sass_Logo_Color.svg.png"      
+}, {
+    "title": "Coding for Dummies",
+    "author": "Akira Nagata",
+    "read": "false",
+    "img": "https://media.istockphoto.com/photos/computer-coding-software-picture-id1217011961"      
+}
+]`
