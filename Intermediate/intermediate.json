@@ -1,0 +1,71 @@
+var employee = `[{
+    "ID": 1,
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@gmail.com",
+    "jobTitle": "Developer",
+    "salary": "3500"
+}, {
+    "ID": 2,
+    "firstName": "Sarah",
+    "lastName": "Ivanovic",
+    "email": "s.ivanovic@gmail.com",
+    "jobTitle": "Broker",
+    "salary": "3000"
+}, { 
+    "ID": 3,
+    "firstName": "Peter",
+    "lastName": "Larsson",
+    "email": "peter.larsson@gmail.com",
+    "jobTitle": "Doctor",
+    "salary": "4500"
+}, {
+    "ID": 4,
+    "firstName": "Ciara",
+    "lastName": "Miller",
+    "email": "ciara.miller@gmail.com",
+    "jobTitle": "Driver",
+    "salary": "1500"
+}, {
+    "ID": 5,
+    "firstName": "Arthur",
+    "lastName": "Ricker",
+    "email": "arthur.ricker@gmail.com",
+    "jobTitle": "Developer",
+    "salary": "3000"
+}, {
+    "ID": 6,
+    "firstName": "Akira",
+    "lastName": "Nagata",
+    "email": "akira.nagata@gmail.com",
+    "jobTitle": "Designer",
+    "salary": "2200"
+}, {
+    "ID": 7,
+    "firstName": "Sati",
+    "lastName": "Aliti",
+    "email": "sati.aliti@gmail.com",
+    "jobTitle": "PR Manager",
+    "salary": "3300"
+}, {
+    "ID": 8,
+    "firstName": "Dirk",
+    "lastName": "Hauser",
+    "email": "dirk.hauser@gmail.com",
+    "jobTitle": "Pilot",
+    "salary": "2700"
+}, {
+    "ID": 9,
+    "firstName": "Lilly",
+    "lastName": "Johnson",
+    "email": "lilly.johnson@gmail.com",
+    "jobTitle": "Gardener",
+    "salary": "1600"
+}, {
+    "ID": 10,
+    "firstName": "Natalia",
+    "lastName": "Petrova",
+    "email": "n.petrova@gmail.com",
+    "jobTitle": "Moderator",
+    "salary": "2600"
+}]`
