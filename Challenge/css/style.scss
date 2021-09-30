@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    height: 150px;
+    background: no-repeat url("https://1e9.community/uploads/db1440/original/2X/7/79c76f0958a61dad3a208ba7b7e22db9774217b2.jpeg") center center;
+}
+
+body {
+    background-color: rgb(58, 11, 11)!important;
+}
+
+main #demo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin-top: 5%;
+
+    .card {
+        background-color: rgb(13,17,23);
+        align-self: center;
+        margin-bottom: 2rem;
+
+        .card-title {
+            color: rgb(33, 79, 231);
+        }
+
+        .list-group-item  {
+            background-color: rgb(13,17,23);
+            color: rgb(170, 126, 15);
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        img {
+            max-height: 150px;
+        }
+    }
+}
+

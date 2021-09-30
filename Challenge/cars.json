@@ -1,0 +1,44 @@
+var cars = `[{
+    "name": "BMW i8",
+    "prodYear": "2018",
+    "power": "362",
+    "img": "https://www.greengear.de/wp-content/uploads/20190225_bmw_i8_coupe.jpg",
+    "price": "50600",
+    "km": "120000"
+}, {
+    "name": "Peel P50",
+    "prodYear": "1961",
+    "power": "4",
+    "img": "https://www.autozeitung.de/assets/styles/article_image/public/gallery_images/2016/03/peel-p50-16.jpg?itok=AezY5hVn",
+    "price": "156000",
+    "km": "7896"
+}, {
+    "name": "VisionAVTR",
+    "prodYear": "Future",
+    "power": "unknown",
+    "img": "https://www.kosmo.at/wp-content/uploads/2020/01/auto-1.jpg",
+    "price": "unknown",
+    "km": "new"
+} ,{
+    "name": "SUV",
+    "prodYear": "2018",
+    "power": "214",
+    "img": "http://www.auto-salon-flensburg.de/s/img/emotionheader.jpg?1602937588.940px.505px",
+    "price": "55000",
+    "km": "80000"
+}, {
+    "name": "Audi R8",
+    "prodYear": "2019",
+    "power": "525",
+    "img": "https://cdn.pixabay.com/photo/2015/06/05/15/02/audi-798530_960_720.jpg",
+    "price": "112000",
+    "km": "new"
+}, {
+    "name": "Audi R8",
+    "prodYear": "2019",
+    "power": "525",
+    "img": "https://cdn.pixabay.com/photo/2015/06/05/15/02/audi-798530_960_720.jpg",
+    "price": "112000",
+    "km": "new"
+}
+]`
