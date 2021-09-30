@@ -6,7 +6,6 @@ In this exercise, we are going to create a website for the car shop. You are fre
 Create a JSON file with data about cars, e.g. car name, car production year, car image (image link URL), car price, etc.
 Display this data from this JSON file in the index.html page using JavaScript loop and according to the provided design
 
-
 When the user clicks on the car name you should display the div with the big photo and all details about the car, like on the image bellow (you should also provide the feature to hide the big div):
  */
 
@@ -34,19 +33,18 @@ for (let car of carsParsed) {
       </div>
       <div class="modal-body">
         <img src="${car.img}" class="card-img-top" alt="${car.name}">
-
         <ul class="list-group list-group-flush">
-        <li class="list-group-item"><small>Year of production:</small><b>${car.prodYear}</b></li>
-        <li class="list-group-item"><small>Power:</small><b>${car.power}</b></li>
-        <li class="list-group-item"><small>KM:</small><b>${car.km}</b></li>
-        <li class="list-group-item"><small>Price:</small><b>${car.price}</b></li>
+          <li class="list-group-item"><small>Year of production:</small><b>${car.prodYear}</b></li>
+          <li class="list-group-item"><small>Power:</small><b>${car.power}</b></li>
+          <li class="list-group-item"><small>KM:</small><b>${car.km}</b></li>
+          <li class="list-group-item"><small>Price:</small><b>${car.price}</b></li>
         </ul>
       </div>
     </div>
   </div>
 </div>
     `;
-    i++;
+  i++;
 }
 
 /* var cards = document.getElementsByClassName("card");

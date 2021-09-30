@@ -1,41 +1,90 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 header {
-    height: 150px;
-    background: no-repeat url("https://1e9.community/uploads/db1440/original/2X/7/79c76f0958a61dad3a208ba7b7e22db9774217b2.jpeg") center center;
+  height: 150px;
+  background: no-repeat
+    url("https://1e9.community/uploads/db1440/original/2X/7/79c76f0958a61dad3a208ba7b7e22db9774217b2.jpeg")
+    center center;
+  background-size: cover;
+
+  .bi-cpu-fill {
+    font-size: 4rem;
+    vertical-align: -15%;
+  }
+
+  .nav-link {
+    font-size: 1.5em;
+    font-weight: 600;
+  }
 }
 
 body {
-    background-color: rgb(58, 11, 11)!important;
+  background-color: rgb(58, 11, 11) !important;
 }
 
 main #demo {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
-    margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin-top: 5%;
 
-    .card {
-        background-color: rgb(13,17,23);
-        align-self: center;
-        margin-bottom: 2rem;
+  a {
+    text-decoration: none;
+    color: white;
+  }
 
-        .card-title {
-            color: rgb(33, 79, 231);
-        }
+  .card {
+    background-color: rgb(13, 17, 23);
+    align-self: center;
+    margin-bottom: 2rem;
 
-        .list-group-item  {
-            background-color: rgb(13,17,23);
-            color: rgb(170, 126, 15);
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        img {
-            max-height: 150px;
-        }
+    .card-title {
+      color: rgb(77, 118, 253);
     }
+
+    img {
+      max-height: 150px;
+    }
+
+    &:hover {
+      box-shadow: 1px 1px 10px #fff;
+    }
+  }
 }
 
+.modal-content {
+  background-color: rgb(13, 17, 23) !important;
+
+  .list-group-item {
+    background-color: rgb(45, 58, 77);
+    color: rgb(196, 151, 38);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btn-close,
+  .modal-title {
+    color: rgb(219, 164, 23) !important;
+  }
+  .btn-close {
+    background-color: ivory;
+  }
+  .modal-header {
+    border-bottom: 0;
+  }
+}
+
+footer {
+  background-color: rgb(29, 12, 12);
+
+  .nav-item {
+    padding: 2em 0;
+
+    .nav-link {
+      color: rgb(221, 209, 209);
+      font-size: 1em;
+    }
+  }
+}
